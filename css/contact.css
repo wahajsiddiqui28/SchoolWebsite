@@ -1,0 +1,68 @@
+.contact {
+  margin: 0 20px;
+}
+
+.c-container {
+    max-width: 968px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(2, 2, 2, 0.35) 0px 5px 15px;
+}
+
+.c-container h1 {
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.form-container {
+    margin-top: 30px;
+}
+
+.form-container form {
+    padding: 20px;
+}
+
+form .input-field {
+    display: flex;
+    margin: 0 0 10px 0; /** 20 px = top and bottom and 0 = left and right **/
+}
+
+form .input-field .field {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.field input {
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.field textarea {
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
+form .input-field .field input, .field textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.335);
+}
+
+.field button {
+    padding: 13px 20px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: rgb(56, 170, 56);
+    border: none;
+    border-radius: 10px;
+}
+
+.field button:hover {
+    background-color: rgba(56, 170, 56, 0.678);
+}

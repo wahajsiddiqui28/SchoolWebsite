@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #777373;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 22.22%;
+  margin-top: 6px;
+  padding: 10px;
+  text-align: center;
+  height: 400px;/* Should be removed. Only for demonstration */
+}
+
+.column4 {
+  float: left;
+  width:55%;
+  margin-top: 6px;
+  padding: 10px;
+  text-align: center;
+  height: 400px;/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+
+
+/* Style the footer */
+.footer {
+  background-color: #ad2424;    
+  padding: 10px;
+  text-align: center;
+  margin-top: 6px;
+  color: white;
+}
+
+.foot {
+  background-color: #241313;    
+  padding: 10px;
+  text-align: center;
+  margin-top: 6px;
+  color: white;
+}
+
+
+
+.row-row:{
+  float: left;
+  /* width: 50%; */
+  /* padding: 10px;  */
+  height: 400px;/* Should be removed. Only for demonstration */
+}
+.column1{
+    float: left;
+    margin-top: 6px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+   
+}
+
+
+.row-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+  
+}
+
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h2>Header</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(151, 131, 131);">Column</div>
+  <div class="column4" style="background-color:#bbb;">Column</div>
+  <div class="column" style="background-color:#ccc;">Column</div>
+ 
+</div>
+<div class="row-row">
+
+    <div class="column1" style="background-color:#ccc;">Column</div>
+  <div class="column1" style="background-color:rgb(148, 87, 87);">Column</div>
+</div>
+
+<div class="foot">
+  <p>Row</p>
+  
+</div>
+
+<div class="footer">
+    <p>Footer</p>
+  </div>
+</body>
+</html>

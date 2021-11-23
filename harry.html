@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahaj</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    
+    <style>
+        /* CSS Reset*/
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/new2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100vh;
+            background-size: cover;
+            }
+
+            .left{
+                display: inline-block;
+                /* border: 2px solid red; */
+                position: absolute;
+                top: 16px;
+                left: 34px;
+
+            }
+            .left img{
+                border-image: 8px;
+                margin: 2px;
+                width: 165px;
+                height: 85px;
+                
+            }
+            .hrry{
+                text-align: center;
+                color: rgb(182, 179, 175);
+                font-size: 22px;
+            }
+            .mid{
+                /* border: 2px solid greenyellow; */
+                border-radius: 15px;
+                /* border-color: khaki; */
+                /* background-color: grey; */
+                display: block;
+                width: 60%;
+                margin: 20px 220px;
+                /* border: 2px solid rgb(42, 204, 27); */
+            }
+            
+    
+                
+            
+            .right{
+                display: inline-block;
+                /* border: 2px solid rgb(241, 195, 42); */
+                position: absolute;
+                top: 20px;
+                right: 34px;   
+            }
+
+            .navbar{
+               
+                display: inline-block;
+            }
+            .navbar li{
+                display: inline-block;
+                font-size: 17px;
+            }
+            .navbar li a{
+                
+                
+                color: rgb(216, 147, 44);
+                text-decoration: none;
+                padding: 20px 20px;
+            }
+            .navbar li a:hover, .navbar li a.active {
+              
+               text-decoration: underline ;
+               color: rgb(54, 209, 196);
+               }
+               .btn{
+                   margin: 10px 10px;
+                   background-color: rgb(15, 14, 14);
+                   color: white;
+                   padding: 3px 4px ;
+                   border: 2px solid grey;
+                   border-radius: 8px;
+                   font-size: 14px;
+                   cursor: pointer;
+               }
+               .btn:hover{
+                   background-color: rgb(165, 136, 136);
+               }
+               .simple{
+                   
+                   /* border: 2px solid greenyellow; */
+                   margin: 95px 2px;
+                   padding: 40px 3%;
+                   width: 28%;
+                   border-radius: 1px;
+                   font-size: 11px;
+               }
+               .form{
+                   /* float:right; */
+                   display: inline-block;
+                   margin: 2px 2px;
+                   padding: 2px 2px;
+                   
+                   
+               }
+               /* .now{
+                   margin: 0px 100px;
+                   background-color: rgb(22, 21, 21);
+                   color: white;
+                   border: 2px solid gray;
+                   display: inline-block;
+                   width: 200px;
+                   text-align: center; */
+
+               }
+               
+
+    </style>
+
+
+<body>
+    <header class="header">
+
+            <div class="left">
+               <img src="img/new3.jpg" alt="">
+              <div class="hrry"> Harry Fitness </div>
+           </div>
+        <div class="mid">
+            
+            <ul class="navbar">
+                
+                  
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+          <button class="btn">Call Us Now</button>
+          <button class="btn">Email US</button>
+        </div>
+    </header>
+    <div class="simple">
+        <h1>Join the best gym of HYD now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Namber">
+            </div>
+        </form>
+    </div>
+    <!-- <div class="now"> -->
+        
+        <!-- Submit -->
+
+    <!-- </div> -->
+    
+    
+</body>
+
+</html>

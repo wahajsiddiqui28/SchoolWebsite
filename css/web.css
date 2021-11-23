@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/** DESIGNING NAVIGATION  MENU **/
+
+header{
+    width: 100%;
+    height: 100%;
+    /** FLEXBOX **/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    z-index: 1;
+}
+
+header .navigation nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header .navigation nav ul li {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+header .navigation nav ul li a {
+    color:black;
+}
+
+header .login  {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0 15px;
+}
+.container{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.container .para1 {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    
+}
+
+
+
+.img2{
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+
+.img2 img {
+        max-width: 300px;
+}
+
+.para{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.sect{
+    height: 1100px;
+    text-align: center;
+    margin-top: 17%;
+    font-size: 40px;
+    color: #7287AE;
+}
+

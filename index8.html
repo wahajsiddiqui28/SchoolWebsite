@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box </title>
+    <style>
+        .continer {
+            height: 3000px;
+            border: 2px solid rgb(5, 4, 4);
+            background-color: burlywood;
+
+        }
+
+        .box {
+            border: 2px solid purple;
+            height: 100px;
+            width: 100px;
+            margin: 2px;
+            display: inline-block;
+        }
+
+        /* #box2 {
+            position: relative;
+            top: 20px;
+            left: 45px;
+        } */
+        /* #box2 {
+            position: absolute;
+            top: 45px;
+            left: 65px;
+        } */
+        /* #box3 {
+            position: fixed;
+           right: 20px;
+           bottom: 10px;
+        } */
+        #box2 {
+            position: sticky;
+            top: 12px;
+            left: 45px;
+        }
+
+        /* #box5 {
+            position: relative;
+            top: 20px;
+            left: 45px;
+        } */
+        /* #box7 {
+            position: relative;
+            top: 20px;
+            left: 45px;
+        } */
+        #box10 {
+            position: sticky;
+            top: 10px;
+            right: 90px;
+        }
+
+        #box6 {
+            position: sticky;
+            top: 10px;
+
+        }
+        #box11 {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            height: 40px;
+            width: 60px;
+            border-radius: 10px;
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box5">5</div>
+        <div class="box" id="box6">6</div>
+        <div class="box" id="box7">7</div>
+        <div class="box" id="box8">8</div>
+        <div class="box" id="box9">9</div>
+        <div class="box" id="box10">10</div>
+        <div class="box" id="box11">This is chat box</div>
+        
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+    background-color: rgb(196 224 211);
+}
+header, footer, section, aside, nav{
+    display: block;
+}
+/* Header 
+*/
+header{
+    width: 100%;
+    /* height: 100px; */
+    text-align: center;
+    padding: 20px 0;
+    /* margin-top: 5px; */
+    height: 100px;
+    background-color: rgb(214 243 209)
+}
+header img{
+    max-width: 100%;
+    /* margin-left: 30px; */
+    width: auto;
+    height: 100px;
+    margin-top:  0px;
+    /* opacity: 0.6; */
+    
+}
+/* Navigation Bar 
+*/
+nav{
+    width: 100%;
+    background-color: rgb(8, 41, 41);
+    height: 50px;
+}
+nav ul {
+    display: inline-block
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;  
+   border-right: 2px solid beige;
+   font-size: 20px;
+}
+    nav ul li:first-child a {
+        border-left: 2px solid beige;
+}
+nav ul li a:hover {
+    color: rgb(3, 3, 3);
+    background: rgb(222, 228, 230);
+    
+}
+/* Container 
+*/
+.container {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content, .sidebar {
+    float: left;
+}
+.content {
+    width: 70%;
+}
+.content h1{
+    text-align: center;  
+    font-size: 33px;
+}
+.content p {
+        font-size: 1.1rem;
+}
+.sidebar {
+    width: 30%;
+}
+.sidebar h2 {
+    font-size: 25px;
+}
+.sidebar p {
+    font-size: 1.1rem;
+}
+.home-row{
+    background: rgb(81, 98, 98);
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.home-row p {   
+    color: white;
+    padding: 50px;  
+    font-size: 1.1rem;
+
+}
+/* Footer
+*/
+footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: rgb(8, 41, 41); ;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.footer-container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.footer-widget{
+    float: left;
+    width: 25%;
+}
+.footer-widget ul{
+    margin: 0;   
+    padding: 0;
+    margin-left: 20px;
+    list-style: square;
+}
+.footer-widget ul li {
+    margin-left: 20px;
+    color: white;
+}
+.footer-widget ul li a {
+    color: white;
+    text-decoration: none;
+}

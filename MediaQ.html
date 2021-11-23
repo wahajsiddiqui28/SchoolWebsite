@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MideaQ</title>
+    <style>
+        .box {
+            background-color: darkgreen;
+            color: black;
+            text-align: center;
+            font-size: 52px;
+            display: none;
+        }
+
+
+        @media  (max-width:300px){
+            #box-4 {
+                display: block;
+            }
+        }
+        
+
+        @media  (min-width:300px) and (max-width:600px) {
+            #box-3 {
+                display: block;
+                background-color: greenyellow;
+            }
+        }
+
+        @media (min-width:600px) and (max-width:900px) {
+            #box-2 {
+                display: block;
+                background-color: rgb(131, 138, 121);
+            } 
+        }
+
+        @media (min-width:900px) {
+            #box-1 {
+                display: block;
+                background-color: rgb(71, 105, 4);
+                color: white;
+            } 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1">This is a 1 number</div>
+    <div class="box" id="box-2">This is a 2 number</div>
+    <div class="box" id="box-3">This is a 3 number</div>
+    <div class="box" id="box-4">This is a 4 number</div>
+</body>
+
+</html>

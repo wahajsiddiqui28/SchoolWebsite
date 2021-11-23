@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    width: 100%;
+}
+
+.navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 40px;
+       
+}
+
+.navbar img{
+        /* margin-right: 100px; */
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* margin-left: 100px; */
+    
+}
+
+.nav li {
+    
+    
+    list-style: none;
+   
+}
+.nav li a{
+    padding: 30px;
+    margin-top: 20px;
+    /* margin: 10px; */
+    font-family: Open Sans;
+    color: #484F5B;
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width: 745px) {
+    .navbar{
+        justify-content: flex-start;
+    }
+    .nav{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+
+.container{
+        /* height: 750px; */
+        width: 100%;
+}
+
+@media (max-width: 905px) {
+    .bgg{
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
+
+.bgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 545px) {
+        .bg-5 img{
+            position: relative;
+            left: 122px;
+        }
+}
+
+@media (max-width: 930px) {
+    .site-img img{
+        display: none;
+    }
+}
+
+.bg-5 {
+    position: relative;
+    /* bottom: 100px; */
+}
+
+.bg-5 img{
+    height: 550px;
+    width: 550px;
+}
+
+.cont{
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+   
+}
+
+#content {
+  
+    height: 600px;
+    border: 2px solid red;  
+    
+ }
+
+
+
+
+
+
+.cont h2{
+    font-size: 40px;
+    color:#484F5B ;
+    font-family :Open Sans ;
+}
+
+.cont p{
+    margin-top: 50px;
+    font-family: Open Sans;
+    color: #484F5B ;
+}
+
+.a {
+    margin-top: 60px;
+    padding: 5px 20px 5px 20px;
+    display: inline-block;
+    background-color: #ffb9b1;
+   
+}
+
+.a a {
+ 
+    font-family: Open Sans ;
+    color: #484F5B;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+   
+}
+
+.site-img{
+     display: inline-block;
+    position: relative;
+    left: 80%;
+    bottom: 200px;
+}
+
+.site-img img{
+        height: 200px;
+       
+}
+
+
+
+
+
+
+
+
+
+/**************************** SECTION CONTENT-2 ******************************/
+
+#content-2{
+    height: 380px;
+    /* background-color: rgb(228, 211, 196); */
+}
+
+.imagess img{
+    height: 150px;
+    width: 150px;
+    /* margin-top: 30px; */
+    /* margin: 100px; */
+  
+}
+
+.images1 {
+        position: relative;
+        /* left: 17%; */
+    display: inline-block;
+    justify-content: center;
+    /* margin-top: 30px;     */
+  
+}
+.images2 {
+        position: relative;
+        left: 17%;
+    display: inline-block;
+    justify-content: center;
+    /* margin-top: 30px; */
+  
+}
+.images1 {
+        position: relative;
+        /* left: 17%; */
+    display: inline-block;
+    justify-content: center;
+    /* margin-top: 30px; */
+  
+}
+
+.imagess{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 200px; */
+}
+
+
+
+.hero1{
+   text-align: center;
+   color:#484F5B ;
+    font-family:Open Sans ;     
+    position: relative;
+    left: -24px;
+}
+
+
+/*********************************** SECTION CENTENT-3 *********************/
+
+#content-3{
+    width: 100%;
+    /* height: 630px; */
+    /* background-color: seashell; */
+}
+
+.container-3 img{
+    height: 120px;
+}
+
+.min{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-4{
+       position: relative;
+       top: -52px;
+       left: 50px;
+}
+
+.container-4 h1{
+    color:#484F5B ;
+    font-family:Open Sans ;   
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+}
+.container-4 p{
+    color:#484F5B ;
+    font-family:Open Sans ;   
+   margin-bottom: 40px;
+}
+.container-4 a{
+    
+    font-family:Open Sans ;   
+        
+}
+
+.site1 img{
+    position: relative;
+    top: -120px;
+    left: 40px;
+    height: 400px;
+    
+}
+
+.site2-img img{
+    height: 100px;
+    position: relative;
+    /* bottom: 100px; */
+
+    
+}
+
+/* <!------------------------------------------- SECTION CONTENT-4 ----------------------------------> */
+
+#content-4{
+        height: 550px;
+        border: 2px solid red;
+}
+
+.container-5{
+   margin: auto;
+   width: 50%;
+   margin-top: 80px;
+}
+
+
+.container-5 h2{
+        font-size: 40px;
+        margin-bottom: 50px;
+        color:#484F5B ;
+       font-family:Open Sans ;   
+}
+
+.container-5 p{
+      /* margin-bottom: 30px; */
+      color:#484F5B ;
+     font-family:Open Sans ;   
+     margin-left: ;
+}
+.container-5 a{
+   margin-top: 80px;
+    font-family: Open Sans ;   
+}

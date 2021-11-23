@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animations & Keyframes</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: aquamarine;
+        }
+
+        .Box {
+            width: 250px;
+            height: 200px;
+            background: rgb(30, 32, 32);
+            position: relative;
+            animation-name: tut2;
+            animation-duration: 3s; 
+            animation-iteration-count: 2s;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes tut1 {
+            from {
+                width: 100px;
+            }
+
+            to {
+                width: 700px;
+            }
+        }
+
+        @keyframes tut2 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 250px;
+                left: 0px;
+            }
+
+            75% {
+                top: 250px;
+                left: 800px;
+            }
+
+            100% {
+                top: 0px;
+                left: 800px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Box">
+            <!-- This is a Box -->
+        </div>
+    </div>
+</body>
+
+</html>

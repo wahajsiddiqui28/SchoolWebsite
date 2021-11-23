@@ -1,0 +1,119 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+               background-color: rgb(219, 219, 219)  ;
+           }
+
+        ul {
+
+            background-color: rgb(110, 110, 110);
+            text-align: center;
+            justify-content: center; 
+         
+        }
+
+        ul li { 
+
+            padding: 5px;
+            margin: 20px 30px;
+            display: inline-block;
+}
+       
+           
+
+      ul li a {
+
+            color: black;
+            text-decoration: none;
+            font-size: 1.1rem;
+           margin: 20px;
+           font-family: 'Sigmar One', cursive;
+
+        }
+
+        ul li a:hover {
+
+            color: white;
+
+        }
+
+        .center img {
+            width: 75%;
+            height: 75vh;
+            background-size: cover;
+            background-position: center;
+
+        }
+        
+        
+
+        /* .center ::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.6;
+        } */
+        .hero h1 {
+            
+            display: block;
+            text-align: center;
+            font-size: 40px;
+             font-family: 'Sigmar One', cursive;
+             background-color: black;
+             color: cornflowerblue;
+        }
+       
+            
+        .hero p{
+           
+            display: block;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .pro img{
+            padding: 4px;
+            margin-top: -278px;
+            position: relative;
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+        }
+ 
+        .pro2 img{
+            padding: 8px;
+            position: relative;
+            margin-top: -316px;
+            height: 303px;
+            width: 311px;   
+            float: right;
+            border-radius: 20px;
+        }
+        .pro3 img{
+            position: relative;
+            height: 295px;
+            width:  311px;
+            float: right;
+            border-radius: 20px;
+        }
+        .pro4 img{
+            padding: 4px;
+            position: relative;
+            height:  295px;
+             width: 300px;
+             border-radius: 20px;
+             
+        }
+        
+        .wwpp{
+            background-color: grey;
+        }
+        .wwpp h1{
+            background-color: grey;
+            font-size: 30px;
+        }
+        

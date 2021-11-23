@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 30px;
+}
+.navigation nav ul li a {
+    padding: 30px;
+}

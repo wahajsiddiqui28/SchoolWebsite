@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postion</title>
+    <style>
+
+        .container{
+            height: 1500px;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            margin: 4px;
+            float: left;
+        }
+        #box-4{
+            position: relative;
+            /* top: 250px; */
+            left: 400px;
+            /* bottom: 10px; */
+        }
+
+        #box-3{
+            position: absolute;
+            top: 220px;
+            left: 900px;
+            /* bottom: 10px; */
+        }
+        #box-2{
+            position: fixed;
+            top: 100px;
+            /* left: 200px; */
+            /* bottom: 10px; */
+        }
+
+        #box-1{
+            position: sticky;
+            top: 500px;
+            left: 850px;
+            bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">1</div>
+        <div class="box" id="box-2">2</div>
+        <div class="box" id="box-3">3</div>
+        <div class="box" id="box-4">4</div>
+    </div>
+</body>
+</html>
